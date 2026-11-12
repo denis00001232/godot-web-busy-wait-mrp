@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 20.0
+offset_top = 20.0
+text = "Empty scene, max_fps = 30. Check this tab's CPU usage."
