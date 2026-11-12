@@ -1,0 +1,14 @@
+; Minimal reproduction for godotengine/godot#93652: an empty 2D scene with max_fps = 30.
+; Export for Web with Thread Support off and watch the tab's CPU in Chrome's task manager.
+config_version=5
+
+[application]
+
+config/name="web-busy-wait-mrp"
+run/main_scene="res://main.tscn"
+run/max_fps=30
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
